@@ -1,0 +1,15 @@
+1. Two Sum (Easy): Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+
+2. Valid Anagram (Easy): Given two strings s and t , write a function to determine if t is an anagram of s.
+
+3. Maximum Subarray (Easy): Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+
+4. Merge Two Sorted Lists (Easy): Merge two sorted linked lists and return it as a sorted list. The list should be made by splicing together the nodes of the first two lists.
+
+5. Unique Email Addresses (Easy): Every email consists of a local name and a domain name, separated by the @ sign. For example, in alice@leetcode.com, alice is the local name, and leetcode.com is the domain name. Besides lowercase letters, these emails may contain '.'s or '+'s. If you add periods ('.') between some characters in the local name part of an email address, mail sent there will be forwarded to the same address without dots in the local name. If you add a plus ('+') in the local name, everything after the first plus sign will be ignored. This allows certain emails to be filtered.
+
+6. Jewels and Stones (Easy): You're given strings J representing the types of stones that are jewels, and S representing the stones you have. Each character in S is a type of stone you have. You want to know how many of the stones you have are also jewels.
+
+7. Maximum Depth of Binary Tree (Easy): Given the root of a binary tree, return its maximum depth.
+
+8. Symmetric Tree (Easy): Given a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).

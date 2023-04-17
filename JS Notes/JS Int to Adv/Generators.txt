@@ -1,0 +1,36 @@
+Generators are a type of function in JavaScript that can be paused and resumed, allowing for the generation of a sequence of values. Generators use the function* syntax, and when invoked, they return an iterator object. Generators are a powerful feature in JavaScript that can be used for asynchronous programming, lazy evaluation, and more.
+
+Here is an example of a simple generator function:
+
+function* myGenerator() {
+  yield 1;
+  yield 2;
+  yield 3;
+}
+
+const iterator = myGenerator();
+console.log(iterator.next()); // { value: 1, done: false }
+console.log(iterator.next()); // { value: 2, done: false }
+console.log(iterator.next()); // { value: 3, done: false }
+console.log(iterator.next()); // { value: undefined, done: true }
+
+
+In this example, we define a generator function myGenerator() that uses the yield keyword to generate a sequence of values. When we invoke the function, it returns an iterator object, which we can use to iterate over the generated values using the .next() method. Each call to .next() returns an object with a value property containing the next generated value, and a done property that indicates whether the generator has finished generating values.
+
+Generators can also receive input values, which are passed to the generator function using the .next() method. Here is an example:
+
+
+function* greetGenerator() {
+  const name = yield "What is your name?";
+  yield `Hello, ${name}!`;
+}
+
+const iterator = greetGenerator();
+console.log(iterator.next()); // { value: "What is your name?", done: false }
+console.log(iterator.next("Alice")); // { value: "Hello, Alice!", done: false }
+console.log(iterator.next()); // { value: undefined, done: true }
+
+
+In this example, we define a generator function greetGenerator() that prompts the user for their name and generates a greeting message. We pass the name "Alice" to the generator function using the second call to .next(). The generator function uses the yield keyword to pause execution and return the prompt message to the caller, and then waits for input from the caller using the .next() method. The input value is then assigned to the name variable, and the generator function continues executing, generating the greeting message.
+
+Generators are a powerful tool for controlling the flow of execution in JavaScript and can be used for many purposes, including creating iterators, implementing lazy evaluation, and implementing cooperative multitasking.

@@ -1,0 +1,15 @@
+1. Two Sum (Easy): Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+
+2. Reverse String (Easy): Write a function that reverses a string. The input string is given as an array of characters char[].
+
+3. Valid Perfect Square (Easy): Given a positive integer num, write a function which returns True if num is a perfect square else False.
+
+4. Majority Element (Easy): Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊n/2⌋ times.
+
+5. Intersection of Two Arrays II (Easy): Given two arrays, write a function to compute their intersection.
+
+6. Merge Intervals (Medium): Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
+
+7. Best Time to Buy and Sell Stock (Easy): You are given an array prices where prices[i] is the price of a given stock on the ith day. You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
+
+8. Plus One (Easy): Given a non-empty array of decimal digits representing a non-negative integer, increment one to the integer.

@@ -1,0 +1,29 @@
+1. What is JavaScript, and how does it differ from Java?
+JavaScript is a scripting language used to create interactive and dynamic websites. It runs on the client-side and can manipulate HTML and CSS, as well as interact with servers using AJAX. JavaScript is different from Java in that it is a scripting language and not a full-fledged programming language like Java. Additionally, JavaScript is interpreted at runtime, whereas Java is compiled into bytecode and then executed.
+
+2. What is the difference between null and undefined in JavaScript?
+In JavaScript, null represents an intentional absence of any object value, whereas undefined represents a variable that has not been initialized or has been declared but has no assigned value. The difference between them is that null is a value that can be assigned to a variable, while undefined is a property of the variable.
+
+3. What is the DOM, and how does it work?
+The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM works by creating a tree-like structure of nodes that represent the different parts of an HTML document. JavaScript can interact with the DOM to create, modify, and delete elements on the page.
+
+4. What is the difference between let, const, and var in JavaScript?
+In JavaScript, let and const are block-scoped variables, while var is function-scoped. let is used to declare variables that can be reassigned, while const is used for variables that cannot be reassigned. var is the old way of declaring variables and should be avoided when possible.
+
+5. How does prototypal inheritance work in JavaScript?
+In JavaScript, each object has a prototype, which acts as a template for creating new objects. When an object is created, it inherits properties and methods from its prototype. If a property or method is not found on the object itself, JavaScript looks up the prototype chain until it finds the property or method. This is known as prototypal inheritance.
+
+6. What are closures in JavaScript, and how do they work?
+A closure is a function that has access to variables in its outer (enclosing) function, even after the outer function has returned. Closures work by creating a scope chain, which allows the inner function to access variables in its outer function. This makes it possible to create private variables and functions in JavaScript.
+
+7. What is the difference between synchronous and asynchronous code in JavaScript?
+Synchronous code executes one line of code at a time and blocks the execution until the current line is complete. Asynchronous code, on the other hand, allows multiple lines of code to be executed at the same time without blocking the execution. Asynchronous code uses callbacks, promises, and async/await to manage the flow of execution.
+
+8. What is event bubbling, and how does it work in JavaScript?
+Event bubbling is a mechanism in which an event starts at the lowest-level element and propagates up the DOM tree until it reaches the document object. During the propagation, the event triggers all the event handlers attached to the elements along the way. This allows for event delegation, where a single event handler is attached to a parent element to handle events for all its children.
+
+9. How do you debug JavaScript code?
+Debugging JavaScript code can be done using browser tools such as the Chrome Developer Tools or Firefox Developer Tools. These tools allow you to set breakpoints, inspect variables, and step through your code line by line. Another useful technique is to add console.log statements throughout your code to output the values of variables and confirm that your code is executing as expected.
+
+10. How do you handle errors in JavaScript?
+In JavaScript, errors can be handled using try/catch blocks. The try block contains the code that may throw an error, while the catch

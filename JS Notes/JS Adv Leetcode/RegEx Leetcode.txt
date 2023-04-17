@@ -1,0 +1,16 @@
+1. Valid Palindrome (Easy): Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
+
+2. Implement strStr() (Easy): Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+
+3. Longest Common Prefix (Easy): Write a function to find the longest common prefix string amongst an array of strings. If there is no common prefix, return an empty string "".
+
+4. Reverse Words in a String III (Easy): Given a string s, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
+
+5. Valid Number (Hard): Validate if a given string can be interpreted as a decimal number.
+
+6. Regular Expression Matching (Hard): Given an input string s and a pattern p, implement regular expression matching with support for '.' and '*' where:
+
+'.' Matches any single character.​​​​
+'*' Matches zero or more of the preceding element.
+
+7. Count and Say (Easy): The count-and-say sequence is a sequence of digit strings defined by the recursive formula: countAndSay(1) = "1", countAndSay(n) is the way you would "say" the digit string from countAndSay(n-1), which is then converted into a different digit string.

@@ -1,0 +1,36 @@
+Events are actions or occurrences that happen in the browser, such as a user clicking a button or the page finishing loading. In JavaScript, you can use event listeners to respond to events and execute code when a particular event occurs. Here are the key concepts you need to know about events in JavaScript:
+
+1. Event listeners: An event listener is a function that waits for a specific event to occur and then executes some code in response. You can add event listeners to HTML elements using the addEventListener method.
+
+element.addEventListener(event, function, useCapture);
+
+
+- event is a string that specifies the type of event to listen for, such as "click" or "load".
+- function is the function to execute when the event occurs.
+- useCapture is an optional boolean value that specifies whether to use event capturing or bubbling. If set to true, the event will be captured by the element's ancestors before it reaches the target element.
+
+For example, the following code adds an event listener to a button element and executes a function when the button is clicked:
+
+const button = document.querySelector('button');
+
+button.addEventListener('click', function() {
+  console.log('Button clicked!');
+});
+
+
+2. Event objects: When an event occurs, an event object is created that contains information about the event. You can access this information in your event listener function by using the event parameter.
+
+For example, the following code logs the x and y coordinates of the mouse when the user clicks on the document:
+
+document.addEventListener('click', function(event) {
+  console.log(`Clicked at (${event.clientX}, ${event.clientY})`);
+});
+
+
+3. Event propagation: When an event occurs on an element, it can also trigger the same event on the element's ancestors or descendants. This is called event propagation, and there are two types: event bubbling and event capturing.
+
+- Event bubbling: When an event occurs on an element, it first triggers the event on the element itself, then on its parent element, and so on up the DOM tree until it reaches the document object. You can use the event.stopPropagation() method to stop the event from propagating further up the DOM tree.
+
+- Event capturing: When an event occurs on an element, it first triggers the event on the document object, then on its parent element, and so on down the DOM tree until it reaches the target element. You can set the useCapture parameter of the addEventListener method to true to enable event capturing.
+
+Understanding events and how to use them in JavaScript is crucial for building interactive and dynamic web applications.

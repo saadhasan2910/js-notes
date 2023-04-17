@@ -1,0 +1,13 @@
+1. Design Bounded Blocking Queue (Medium): Implement a thread-safe bounded blocking queue that has the following methods: enqueue, dequeue, size, and capacity.
+
+2. Design Dining Philosophers Problem (Medium): Five silent philosophers sit at a round table with bowls of spaghetti. Forks are placed between each pair of adjacent philosophers. Each philosopher must alternately think and eat. However, a philosopher can only eat spaghetti when they have two forks, one taken from their left and the other from their right. Write a program to simulate this process.
+
+3. Print FooBar Alternately (Medium): Implement a program that outputs the string "foo" n times, followed by the string "bar" n times, alternating.
+
+4. Implement Semaphore (Medium): Implement a semaphore that has the following methods: acquire and release.
+
+5. Print Zero Even Odd (Medium): Implement a program that prints the numbers from 0 to n in sequence. However, there are three threads that must cooperate to print the numbers. One thread prints only the even numbers, one thread prints only the odd numbers, and one thread prints only the zeros.
+
+6. Design Multithreaded Restaurant (Hard): Implement a multithreaded restaurant simulator that has the following components: a chef, a waiter, and multiple customers.
+
+7. Read N Characters Given Read4 II - Call multiple times (Hard): Given a function read4 which reads 4 bytes at a time from a file, implement a function read that reads n bytes from the file.

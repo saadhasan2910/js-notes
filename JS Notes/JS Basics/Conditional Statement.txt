@@ -1,0 +1,71 @@
+In JavaScript, conditional statements are used to execute different actions based on different conditions. Here are some important concepts to know about conditionals in JavaScript:
+
+1. If statement: The if statement is used to execute a block of code if a specified condition is true. The code inside the curly braces will only be executed if the condition inside the parentheses is true.
+
+if (condition) {
+  // code to execute if condition is true
+}
+
+For example:
+
+let number = 10;
+
+if (number > 5) {
+  console.log("The number is greater than 5.");
+}
+
+
+2. If-else statement: The if-else statement is used to execute one block of code if a specified condition is true, and another block of code if it is false.
+
+if (condition) {
+  // code to execute if condition is true
+} else {
+  // code to execute if condition is false
+}
+
+For example:
+
+let number = 3;
+
+if (number > 5) {
+  console.log("The number is greater than 5.");
+} else {
+  console.log("The number is less than or equal to 5.");
+}
+
+
+3. If-else if statement: The if-else if statement is used to test multiple conditions, and execute different code for each condition.
+
+if (condition1) {
+  // code to execute if condition1 is true
+} else if (condition2) {
+  // code to execute if condition2 is true
+} else {
+  // code to execute if all conditions are false
+}
+
+For example:
+
+let number = 7;
+
+if (number < 0) {
+  console.log("The number is negative.");
+} else if (number > 0) {
+  console.log("The number is positive.");
+} else {
+  console.log("The number is zero.");
+}
+
+
+4. Ternary operator: The ternary operator (?) is a shorthand way to write an if-else statement. It takes a condition and two expressions, and returns one of the expressions based on whether the condition is true or false.
+
+condition ? expression1 : expression2
+
+For example:
+
+let number = 10;
+let result = number > 5 ? "The number is greater than 5." : "The number is less than or equal to 5.";
+console.log(result); // Output: "The number is greater than 5."
+
+
+Understanding these key concepts can help you write efficient and maintainable code using conditionals in JavaScript.

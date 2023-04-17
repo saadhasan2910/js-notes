@@ -1,0 +1,19 @@
+1. Valid Sudoku (Medium): Determine if a 9x9 Sudoku board is valid. The Sudoku board could be partially filled, where empty cells are filled with the character '.'.
+
+2. Add Binary (Easy): Given two binary strings, return their sum (also a binary string).
+
+3. Maximum Nesting Depth of the Parentheses (Easy): Given a valid parentheses string, find the maximum depth of the parentheses.
+
+4. Search Insert Position (Easy): Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+
+5. Longest Common Prefix (Easy): Write a function to find the longest common prefix string amongst an array of strings.
+
+6. Palindrome Number (Easy): Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+
+7. Merge Two Sorted Lists (Easy): Merge two sorted linked lists and return it as a sorted list. The list should be made by splicing together the nodes of the first two lists.
+
+8. Reverse Integer (Easy): Given a 32-bit signed integer, reverse digits of an integer.
+
+9. Roman to Integer (Easy): Given a roman numeral, convert it to an integer.
+
+10. Valid Parentheses (Easy): Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.

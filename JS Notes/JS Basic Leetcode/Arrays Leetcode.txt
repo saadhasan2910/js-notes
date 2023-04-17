@@ -1,0 +1,19 @@
+1. Two Sum (Easy): Given an array of integers, find two numbers such that they add up to a specific target number. Return the indices of the two numbers as an array.
+
+2. Best Time to Buy and Sell Stock (Easy): You are given an array of prices where prices[i] is the price of a given stock on the ith day. Find the maximum profit you can achieve by buying and selling the stock once.
+
+3. Rotate Array (Medium): Given an array, rotate the array to the right by k steps, where k is non-negative.
+
+4. Maximum Subarray (Easy): Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+
+5. Move Zeroes (Easy): Given an array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+
+6. Product of Array Except Self (Medium): Given an array nums of n integers, return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
+
+7. Container With Most Water (Medium): Given n non-negative integers a1, a2, ..., an , where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of the line i is at (i, ai) and (i, 0). Find two lines, which, together with the x-axis forms a container, such that the container contains the most water.
+
+8. Three Sum (Medium): Given an array nums of n integers, find all unique triplets in the array which gives the sum of zero.
+
+9. Subarray Sum Equals K (Medium): Given an array of integers nums and an integer k, return the total number of continuous subarrays whose sum equals to k.
+
+10. Merge Intervals (Medium): Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals in ascending order of their start times. 

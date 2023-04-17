@@ -1,0 +1,17 @@
+Sorting is the process of arranging the elements of a collection in a specific order. Sorting is a fundamental operation in computer science and is used in several DSA concepts, such as searching, graph algorithms, and dynamic programming. Here are some of the common sorting algorithms used in DSA:
+
+1. Bubble Sort: Bubble sort is a simple sorting algorithm that repeatedly swaps adjacent elements if they are in the wrong order. The algorithm runs in O(n^2) time complexity in the worst case.
+
+2. Selection Sort: Selection sort is a simple sorting algorithm that repeatedly selects the smallest element from the unsorted part of the array and puts it at the beginning of the sorted part. The algorithm runs in O(n^2) time complexity in the worst case.
+
+3. Insertion Sort: Insertion sort is a simple sorting algorithm that builds the final sorted array one element at a time by inserting each element in its correct position. The algorithm runs in O(n^2) time complexity in the worst case.
+
+4. Merge Sort: Merge sort is a divide-and-conquer sorting algorithm that divides the input array into two halves, sorts each half recursively, and then merges the sorted halves into a single sorted array. The algorithm runs in O(n log n) time complexity in the worst case.
+
+5. Quick Sort: Quick sort is a divide-and-conquer sorting algorithm that picks an element as a pivot and partitions the array around the pivot, sorting the two subarrays recursively. The algorithm runs in O(n log n) time complexity in the average case and O(n^2) in the worst case.
+
+6. Heap Sort: Heap sort is a comparison-based sorting algorithm that builds a binary heap from the input array and repeatedly extracts the maximum element and rebuilds the heap until the array is sorted. The algorithm runs in O(n log n) time complexity in the worst case.
+
+7. Radix Sort: Radix sort is a non-comparison-based sorting algorithm that sorts the elements by grouping them based on the digits in their representation. The algorithm runs in O(nk) time complexity, where k is the number of digits in the largest number.
+
+Overall, understanding sorting algorithms is essential for solving several problems efficiently in DSA. By mastering these algorithms, you can become a better programmer and solve complex problems with ease.
